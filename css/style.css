@@ -1,4 +1,33 @@
 body {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.logo {
+    width: 80px;
+}
+
+.navbar {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    color: #E5E7EB;
 }
